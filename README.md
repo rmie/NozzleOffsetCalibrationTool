@@ -69,7 +69,7 @@ G0 Y{y_safe} F{fast}
 ```
 (x, y_safe, Z)
 ```
-Note: this is an python tuple, the values need to match the position after the previous gCode is executed.
+Note: this is a python tuple, the values need to match the position after the previous gCode is executed.
 X, Y and Z are injected variables, refer to the printer position from before. In the given example *unload*
 doesn't move the printer in Z.
 
@@ -83,7 +83,7 @@ G0 Y{y_safe} F{fast}
 
 **loadEndPos**:
 ```
-(90, y_safe, Z)
+(x_leave, y_safe, Z)
 ```
 
 # Dependencies
