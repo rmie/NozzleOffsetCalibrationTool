@@ -33,10 +33,10 @@ import numpy as np
 from enum import Enum
 
 from Job import *
-from PyQt4.QtCore import *
-from PyQt4.QtGui import *
-from PyQt4 import uic
-
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5 import uic
+from PyQt5.QtWidgets import QInputDialog, QLineEdit, QDialog,QMainWindow,QApplication,QStyleFactory,QProgressBar,QPushButton
 
 class PrinterSettings(object):
     def __init__(self):
